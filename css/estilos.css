@@ -1,0 +1,111 @@
+body{
+    background: black;
+    color: white;
+}
+h1{
+    color: black;
+    text-align: center;
+}
+video{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+  }
+h2{
+    color: white;
+    text-align: center;
+}
+
+.Parrafo{
+    color: orange;
+}
+
+.fondo{
+    background: dimgrey;
+}
+
+.colortransparencia{
+    background: rgba(157, 195, 255, 0.2);
+}
+
+article{
+    background: dimgrey;
+    /*margin-left: 100px;
+    margin-bottom: 200px; */
+    margin: 5px 5px; /* margen externo */
+    padding: 5px; /* margen interno */
+}
+
+nav{
+    background:rgba(20, 20, 119, 0.63);
+    padding: 10px;
+    display: flex;
+    justify-content: space-around; /* distribucion del contenido */
+}
+.nav-enlace{
+    display:inline-block;
+    background: orange;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
+.nav-enlace:hover{
+    background: rosybrown;
+}
+.nav-boton{
+    background: orange;
+    color: #fff;
+    padding: 10px 0;
+    border: 2px solid #fff;
+    display: none;
+}
+@media (max-width: 600px){ /* mediawering */
+    nav {
+        background: black;
+        flex-direction: column;
+    }
+    .nav-enlace {
+        margin: 10px 0px;
+    }
+    .nav-boton{
+        display: inline-block;
+    }
+}
+
+.columna{
+    background: black;
+    color:#f8f3d4;
+    padding: 10px;
+    width: 95%;
+    margin: 5px;
+}
+.padre{
+    display: inline-block;
+}
+
+button{
+    background: #404969;
+    color:#bde4f4
+}
+button:hover{
+    background: #ff7f50;
+}
+button:active{
+    background:#ff4273;
+}
+
+/* elementos de bloque y de linea
+h1{
+    background: dodgerblue;
+    display: inline-block;
+}
+a{
+    background: gold;
+    display: block;
+} */
